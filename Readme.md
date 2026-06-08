@@ -14,18 +14,27 @@ Using historical trading data and sentiment data, the analysis aims to uncover h
 ## 📂 Datasets Used
 
 ### 1. Bitcoin Fear & Greed Index
+
 Contains daily Bitcoin market sentiment classifications.
 
-Columns:
+**Dataset Link:**  
+https://drive.google.com/file/d/1PgQC0tO8XN-wqkNyghWc_-mnrYv_nhSf/view?usp=sharing
+
+**Columns:**
 - Date
 - Classification (Fear, Greed, Extreme Greed, Neutral)
 - Value
+
+---
 
 ### 2. Hyperliquid Historical Trader Data
 
 Contains historical trading activity from Hyperliquid traders.
 
-Key Columns:
+**Dataset Link:**  
+https://drive.google.com/file/d/1IAfLZwu6rJzyWKgBToqwSmmVYU6VbjVs/view?usp=sharing
+
+**Key Columns:**
 - Account
 - Symbol
 - Side
@@ -36,6 +45,15 @@ Key Columns:
 - Timestamp
 
 ---
+
+### Dataset Summary
+
+| Dataset | Records | Description |
+|----------|---------:|-------------|
+| Fear & Greed Index | 2,644 | Daily Bitcoin sentiment data |
+| Hyperliquid Historical Data | 211,224 | Historical trader transactions |
+| Final Merged Dataset | 104,408 | Closed trades matched with sentiment data |
+
 
 ## 🔄 Data Processing
 
